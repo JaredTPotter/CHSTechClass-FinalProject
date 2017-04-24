@@ -1,0 +1,19 @@
+/* Web Fonts */
+@font-face {
+    font-family: "AlternateGothic2BTRegular";
+    src: url() format("truetype");
+}
+
+/* Headers 1 - 4 (Alternate Gothic) */
+
+h1 {
+
+}
+
+
+
+/* paragraph and forms (Roboto) */
+
+body, p {
+
+}
