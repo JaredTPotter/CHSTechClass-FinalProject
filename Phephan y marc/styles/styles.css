@@ -4,3 +4,6 @@ hint: never redefine "col-" classes, just make a new class
 
 
 /* Custom CSS */
+body{
+    background: blue
+}
