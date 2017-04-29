@@ -1,10 +1,13 @@
 /*GENERAL CSS*/
 body {
     overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 
 h1 {
     font-size: 23px;
+    font-weight: bolder;
 }
 
 h2 {
@@ -14,6 +17,22 @@ h2 {
 h3 {
     font-size: 17px;
     word-spacing: 1.2;
+    font-weight: bolder;
+    word-spacing: 1.7; 
+}
+
+h4 {
+    color: grey;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 22px;
+}
+
+h5 {
+    color: grey;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 25px;
 }
 
 /*NAVBAR*/
@@ -27,11 +46,13 @@ h3 {
 
 .navbarLogo {
     height: 30px;
+    width: 130px;
     margin-top: 10px;
 }
 
 .navbarButton {
     height: 30px;
+    width: 130px;
     margin-top: 10px;
     border: 2px;
     border-radius: 2px;
@@ -50,7 +71,7 @@ h3 {
     color: grey;
 }
 
-/*Showcase*/
+/*SHOWCASE*/
 .showcase {
     width: 100%;
     height: 30%;
@@ -69,7 +90,6 @@ h3 {
 .contentDiv {
     background-color: black;
     height: 75%;
-    margin-top: 30px;
 }
 
 .contentButton {
@@ -84,11 +104,11 @@ h3 {
 }
 
 .contentButtonOne {
-    width: 67%;
+    width: 175px;
 }
 
 .contentButtonTwo, .contentButtonThree {
-    width: 40%;
+    width: 35%;
     margin-top: 10px;
 }
 
@@ -96,6 +116,8 @@ h3 {
     width: 100%; 
     border-radius: 2px;
     margin-top: 7px;
+    font-style: italic;
+    border-style: none;
 }
 
 .formPageOne {
@@ -108,7 +130,62 @@ h3 {
 }
 
 .contentOr {
-    width: 30px;
     margin-top: 12px;
     margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.bottomContentButtons {
+    width: 100%;
+}
+
+/* SUBNAVBAR, SEARCH PAGE */
+.subnavbarButton {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.subnavbarButtonA {
+    margin-left: 30%;
+}
+
+.subnavbarButtonB {
+    margin-left: 55%;
+}
+
+/* CONTENT, SEARCH PAGE */
+.searchDivs {
+    height: 70%;
+}
+
+.searchFormsDiv {
+    background-color: black;
+}
+
+.searchResultsDiv {
+    background-color: grey;
+    padding: 0px;
+}
+
+.blackSubnavbar {
+    width: 100%;
+    background-color: black;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+/* FOOTER */ 
+.footer {
+    height: 80px;
+    margin-top: 80px;
+    background-color: lightgrey;
+}
+
+.footerText {
+    margin-top: 23px;
+}
+
+.footerButton {
+    margin-top: 18px;
+    width: 110px;
 }
