@@ -189,3 +189,14 @@ h5 {
     margin-top: 18px;
     width: 110px;
 }
+
+/* MEDIA QUERIES */
+    /* EXTRA SMALL SCREENS */
+@media screen and (max-width: 767px) {
+
+}
+
+    /* LARGE SCREENS */
+@media screen and (min-width: 1200px) {
+    
+}
