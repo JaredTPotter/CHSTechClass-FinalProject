@@ -7,6 +7,10 @@ hint: never redefine "col-" classes, just make a new class
 body{
     background: blue
 }
-
-/* this is how you add comments*/
+container-fluid{
+    width:100%;
+    Color:red;
+    height:100px;
+}
+/* this is how you add comments in css*/
 
