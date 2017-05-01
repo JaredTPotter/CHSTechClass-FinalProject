@@ -30,3 +30,8 @@
     width: 50%;
     height: 35%;
 }
+button {
+    background-color: lightblue;
+    font-family: sans-serif;
+    border: none;
+}
