@@ -1,6 +1,9 @@
-/* Bootstrap overrides 
-hint: never redefine "col-" classes, just make a new class
-*/
-
-
-/* Custom CSS */
+.showcase {
+    background-color: blue;
+}
+.headerone {
+    background-color: red;
+}
+.signup {
+    background-color: green;
+}
