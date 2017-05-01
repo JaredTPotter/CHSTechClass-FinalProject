@@ -1,6 +1,12 @@
 /* Bootstrap overrides 
 hint: never redefine "col-" classes, just make a new class
 */
+button {
+    margin: 0 auto;
+}
 
-
+.buttonone {
+    background-color: lightskyblue;
+    
+}
 /* Custom CSS */
