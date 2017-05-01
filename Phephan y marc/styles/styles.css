@@ -7,10 +7,13 @@ hint: never redefine "col-" classes, just make a new class
 body{
     background: blue
 }
-container-fluid{
+.container-fluid{
     width:100%;
     Color:red;
     height:100px;
+}
+.prep{
+    color:red;
 }
 /* this is how you add comments in css*/
 
