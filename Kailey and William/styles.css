@@ -20,6 +20,7 @@ h3 {
     word-spacing: 1.2;
     font-weight: bolder;
     word-spacing: 1.7; 
+    display: inline;
 }
 
 h4 {
@@ -193,6 +194,14 @@ h5 {
 .footerButton {
     margin-top: 18px;
     width: 110px;
+}
+
+.smallerFooterDiv {
+    padding: 0px;
+}
+
+.redQuarry {
+    margin-left: 30px;
 }
 
 /* MEDIA QUERIES */
