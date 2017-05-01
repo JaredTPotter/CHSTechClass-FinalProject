@@ -147,11 +147,12 @@ h5 {
 
 /* SUBNAVBAR, SEARCH PAGE */
 .subnavbarButton {
-    margin-top: 20px;
+    margin-top: 20px; 
+    width: 150px;
 }
 
 .subnavbarButtonA {
-    margin-left: 30%;
+    margin-left: 30%; 
 }
 
 .subnavbarButtonB {
