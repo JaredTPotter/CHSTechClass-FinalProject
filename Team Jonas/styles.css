@@ -1,5 +1,5 @@
 .navbar {
-    background-color: gray;
+    background-color: lightgray;
     border: 10%;
     border-style: solid;
     border-color: black;
@@ -7,7 +7,7 @@
     height: 5%;
 }
 .showcase {
-    background-color: gray;
+    background-color: lightgray;
     border: 10%;
     border-style: solid;
     border-color: black;
@@ -15,7 +15,7 @@
     height: 25%;
 }
 .headerone {
-    background-color: gray;
+    background-color: lightgray;
     border: 10%;
     border-style: solid;
     border-color: black;
@@ -23,7 +23,7 @@
     height: 35%;
 }
 .signup {
-    background-color: gray;
+    background-color: lightgray;
     border: 10%;
     border-style: solid;
     border-color: black;
