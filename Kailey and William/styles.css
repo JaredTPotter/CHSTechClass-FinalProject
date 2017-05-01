@@ -12,6 +12,7 @@ h1 {
 
 h2 {
     font-size: 23px;
+    display: inline;
 }
 
 h3 {
@@ -107,6 +108,14 @@ h5 {
     width: 175px;
 }
 
+.contentButtonTwo {
+    margin-right: 13%;
+}
+
+.contentButtonThree {
+    margin-left: 13%;
+}
+
 .contentButtonTwo, .contentButtonThree {
     width: 35%;
     margin-top: 10px;
@@ -121,18 +130,15 @@ h5 {
 }
 
 .formPageOne {
-    width: 110%;
-    margin-left: -5%;
-}
-
-.contentSignUp {
-    margin-left: -5%;
+    width: 100%;
 }
 
 .contentOr {
     margin-top: 12px;
     margin-bottom: 0px;
     margin-left: 0px;
+    width: 2%;
+    display: inline-block;
 }
 
 .bottomContentButtons {
@@ -141,7 +147,6 @@ h5 {
 
 /* SUBNAVBAR, SEARCH PAGE */
 .subnavbarButton {
-    width: 100px;
     margin-top: 20px;
 }
 
@@ -193,7 +198,28 @@ h5 {
 /* MEDIA QUERIES */
     /* EXTRA SMALL SCREENS */
 @media screen and (max-width: 767px) {
+    body {
+        overflow: auto;
+    }
+    .contentSignUp, .contentDivOne {
+        text-align: center;
+    }
+}
 
+/* SMALL SCREENS */
+@media screen and (max-width: 992px) {
+
+}
+
+    /* MEDIUM SCREENS */
+@media screen and (max-width: 1200px) {
+    .contentButtonTwo, .contentButtonThree {
+        margin: 15 0 0 0; 
+        width: 100%;
+    }
+    .contentOr {
+        margin-left: 47%;
+    }
 }
 
     /* LARGE SCREENS */
