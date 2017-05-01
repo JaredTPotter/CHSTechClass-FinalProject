@@ -2,11 +2,17 @@
 hint: never redefine "col-" classes, just make a new class
 */
 button {
-    margin: 0 auto;
+    border-style: none;
 }
 
 .buttonone {
     background-color: lightskyblue;
     
 }
+
+.showcase {
+    background-color: lightslategrey;
+    height: 200px;
+}
+
 /* Custom CSS */
