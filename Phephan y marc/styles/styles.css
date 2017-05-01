@@ -5,7 +5,7 @@ hint: never redefine "col-" classes, just make a new class
 
 /* Custom CSS */
 body{
-    background: blue
+    background: blue;
 }
 .container-fluid{
     width:100%;
@@ -14,6 +14,7 @@ body{
 }
 .prep{
     color:red;
+    height:100px;
 }
 /* this is how you add comments in css*/
 
