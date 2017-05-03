@@ -8,6 +8,7 @@ body {
 h1 {
     font-size: 23px;
     font-weight: bolder;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -20,7 +21,6 @@ h3 {
     word-spacing: 1.2;
     font-weight: bolder;
     word-spacing: 1.7; 
-    display: inline;
 }
 
 h4 {
@@ -107,18 +107,10 @@ h5 {
 
 .contentButtonOne {
     width: 175px;
-}
-
-.contentButtonTwo {
-    margin-right: 13%;
-}
-
-.contentButtonThree {
-    margin-left: 13%;
+    margin-top: 15px;
 }
 
 .contentButtonTwo, .contentButtonThree {
-    width: 35%;
     margin-top: 10px;
 }
 
@@ -138,8 +130,8 @@ h5 {
     margin-top: 12px;
     margin-bottom: 0px;
     margin-left: 0px;
-    width: 2%;
     display: inline-block;
+    text-align: center;
 }
 
 .bottomContentButtons {
@@ -206,13 +198,47 @@ h5 {
 }
 
 /* MEDIA QUERIES */
+
     /* EXTRA SMALL SCREENS */
 @media screen and (max-width: 767px) {
     body {
         overflow: auto;
     }
+    .contentDiv {
+        height: 280px;
+        margin-top: 50px;
+    }
+
     .contentSignUp, .contentDivOne {
         text-align: center;
+    }
+    .contentButtonTwo, .contentButtonThree {
+        margin: 15 0 0 0; 
+        width: 100%;
+    }    
+    .contentOr {
+        width: 10%;
+        margin-right: 45%;
+        margin-left: 45%;
+        padding: 0px;
+        font-size: 20px;
+    }
+    .inputPageOne, .bottomContentButtons {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        height: 30px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .contentButtonThree {
+        margin-bottom: 30px;
     }
 }
 
@@ -223,16 +249,17 @@ h5 {
 
     /* MEDIUM SCREENS */
 @media screen and (max-width: 1200px) {
-    .contentButtonTwo, .contentButtonThree {
-        margin: 15 0 0 0; 
-        width: 100%;
-    }
-    .contentOr {
-        margin-left: 47%;
-    }
+
 }
 
     /* LARGE SCREENS */
 @media screen and (min-width: 1200px) {
     
+}
+
+    /* OTHER */
+@media screen and (max-width: 600px) {
+    .contentDiv {
+        height: 350;
+    }
 }
