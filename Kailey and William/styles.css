@@ -1,8 +1,33 @@
+/*Import Font Faces */
+@font-face {
+    font-family: "AlternateGothic2BTRegular";
+    src: url('fonts/alternate-gothic-no2-bt-webfont.eot');
+    src: url('fonts/alternate-gothic-no2-bt-webfont.svg') format('svg'),
+         url('fonts/alternate-gothic-no2-bt-webfont.ttf') format('truetype'),
+         url('fonts/alternate-gothic-no2-bt-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: "RobotoBold";
+    src: url('fonts/Roboto-Bold-webfont.eot');
+    src: url('fonts/Roboto-Bold-webfont.svg') format('svg'),
+         url('fonts/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Bold-webfont.woff') format('woff');
+}
+
 /*GENERAL CSS*/
 body {
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
+}
+
+body, p {
+    font-family: "Roboto-Bold-webfont", arial, sans-serif; 
+}
+
+h1, h2, h3, h4 {
+    font-family: "AlternateGothic2BTRegular", arial, sans-serif;
 }
 
 h1 {
