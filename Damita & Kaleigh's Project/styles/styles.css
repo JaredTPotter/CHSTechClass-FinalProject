@@ -13,6 +13,37 @@ button {
 .showcase {
     background-color: lightslategrey;
     height: 200px;
+    text-align: center;
 }
 
+.buttontwo {
+    background-color: white;
+}
+
+placeholder {
+    font-style: italic;
+}
+
+.buttonthree {
+    background-color: lightskyblue;
+}
+
+.buttonsfourandfive {
+    border-color: white;
+    background-color: white;
+}
+
+.buttonsfourandfive:focus {
+    background-color: lightskyblue;
+    border-color: white;
+    outline: none;
+}
+
+.buttonsix {
+    background-color: lightskyblue;
+}
+
+.buttonseven {
+    background-color: lightsteelblue;
+}
 /* Custom CSS */
