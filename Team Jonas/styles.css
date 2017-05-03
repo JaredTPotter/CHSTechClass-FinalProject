@@ -38,7 +38,7 @@ button {
 }
 .contentbutton{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    box-shadow:black -1px 3px 10px 0px;
+    box-shadow:black -.5px 1px 10px 0px;
     
 
 }
