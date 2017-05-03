@@ -16,5 +16,10 @@ body{
     color:red;
     height:100px;
 }
+
+.block{
+    height:250px;
+    background-color:red;
+}
 /* this is how you add comments in css*/
 
