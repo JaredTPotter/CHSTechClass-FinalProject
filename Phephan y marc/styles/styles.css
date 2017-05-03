@@ -5,12 +5,24 @@ hint: never redefine "col-" classes, just make a new class
 
 /* Custom CSS */
 body{
-    background: blue
+    background: blue;
 }
-container-fluid{
+.container-fluid{
     width:100%;
-    Color:red;
+    Color:yellow;
+}
+.prep{
+    color:red;
     height:100px;
+}
+
+.block{
+    height:250px;
+    background-color:red;
+}
+
+.test{
+    background-color: yellow;
 }
 /* this is how you add comments in css*/
 
