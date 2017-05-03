@@ -38,3 +38,12 @@ button {
     border: none;
     border-radius: 5px;
 }
+.contentbutton{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow:black -1px 3px 10px 0px;
+    
+
+}
+.contentbutton:hover{
+    color:lightblue;
+}
