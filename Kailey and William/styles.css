@@ -46,6 +46,7 @@ h3 {
     word-spacing: 1.2;
     font-weight: bolder;
     word-spacing: 1.7; 
+    display: inline;
 }
 
 h4 {
@@ -97,10 +98,6 @@ h5 {
     background-color: white;
     color: grey;
 }
-
-.navbarButtonTwoDiv {
-    text-align: right;
-} 
 
 .navbarLogo {
     text-align: center;
@@ -209,25 +206,23 @@ h5 {
 /* FOOTER */ 
 .footer {
     height: 80px;
-    margin-top: 80px;
+    margin-top: 90px;
     background-color: lightgrey;
 }
 
 .footerText {
     margin-top: 23px;
+    padding-left: 0px;
 }
 
 .footerButton {
     margin-top: 18px;
-    width: 110px;
+    width: 14%;
+    margin-left: 1%;
 }
 
 .smallerFooterDiv {
     padding: 0px;
-}
-
-.redQuarry {
-    margin-left: 30px;
 }
 
 /* MEDIA QUERIES */
@@ -272,6 +267,30 @@ h5 {
     }
     .contentButtonThree {
         margin-bottom: 30px;
+    }
+    .footer {
+        height: 360px;
+        text-align: center;
+        margin-bottom: 60px;
+        border-radius: 5px;
+    }
+    .footerButton {
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 10px;
+    }
+    .footerText {
+        padding-left: 15px;
+    }
+    .smallerFooterDiv {
+        padding-top: 20px;
+    }
+    .redQuarry {
+        margin-top: 20px;
+    }
+    .smallerFooterDivLeft, .smallerFooterDivRight {
+        background-color: black;
     }
 }
 
