@@ -73,13 +73,13 @@ h5 {
 
 .navbarLogo {
     height: 30px;
-    width: 130px;
+    width: 100%;
     margin-top: 10px;
 }
 
 .navbarButton {
     height: 30px;
-    width: 130px;
+    width: 100%;
     margin-top: 10px;
     border: 2px;
     border-radius: 2px;
@@ -96,6 +96,15 @@ h5 {
 .navbarButtonTwo {
     background-color: white;
     color: grey;
+}
+
+.navbarButtonTwoDiv {
+    text-align: right;
+    padding-left: 0px;
+} 
+
+.navbarLogo {
+    text-align: center;
 }
 
 /*SHOWCASE*/
