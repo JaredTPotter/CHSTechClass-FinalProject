@@ -171,11 +171,6 @@ h5 {
 /* SUBNAVBAR, SEARCH PAGE */
 .subnavbarButton {
     margin-top: 20px; 
-    width: 153px;
-}
-
-.subnavbarButtonA {
-    margin-left: 30%; 
 }
 
 .subnavbarButtonB {
@@ -206,7 +201,7 @@ h5 {
 /* FOOTER */ 
 .footer {
     height: 80px;
-    margin-top: 90px;
+    margin-top: 75px;
     background-color: lightgrey;
 }
 
@@ -291,6 +286,19 @@ h5 {
     }
     .smallerFooterDivLeft, .smallerFooterDivRight {
         background-color: black;
+    }
+    .searchDivs {
+        border-radius: 5px;
+    }
+    .searchContent {
+        padding: 0px;
+    }
+    .blackSubnavbar {
+        background-color: grey;
+        border-radius: 5px;
+    }
+    h5 {
+        color: white;
     }
 }
 
