@@ -11,7 +11,7 @@ button {
 }
 
 .showcase {
-    background-color: lightslategrey;
+    background-color: lightgrey;
     height: 200px;
     text-align: center;
 }
@@ -45,5 +45,13 @@ placeholder {
 
 .buttonseven {
     background-color: lightsteelblue;
+}
+
+.mainnav {
+    background-color: lightgray;
+    border-bottom-color: darkslategray;
+    border-bottom-style: solid;
+    border-width: 1.5px;
+    
 }
 /* Custom CSS */
