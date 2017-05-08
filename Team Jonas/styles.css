@@ -17,6 +17,7 @@
     border: 10%;
     border-style: solid;
     border-color: black;
+    padding-bottom: 10px;
 }
 .signup {
     background-color: lightgray;
@@ -42,10 +43,4 @@ button {
 }
 .contentbutton:hover{
     color:lightblue;
-}
-.rightcolumn {
-    padding-bottom: 10px;
-}
-.headerone {
-    padding-bottom: 10px;
 }
