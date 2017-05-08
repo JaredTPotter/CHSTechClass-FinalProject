@@ -189,6 +189,10 @@ h5 {
     padding-bottom: 10px;
 }
 
+.buttonGroupSearchA {
+    margin-top: 20px;
+}
+
 /* CONTENT, SEARCH PAGE */
 .searchDivs {
     height: 75%;
