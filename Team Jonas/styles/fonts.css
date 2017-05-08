@@ -1,13 +1,20 @@
 /* Web Fonts */
+
 @font-face {
-    font-family: "AlternateGothic2BTRegular";
-    src: url() format("truetype");
+  font-family: 'AlternateGothicNo2';
+  src: url('../fonts/alternate-gothic-no2-bt-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/alternate-gothic-no2-bt-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/alternate-gothic-no2-bt-webfont.woff') format('woff'), /* Super Modern Browsers */
+  url('../fonts/alternate-gothic-no2-bt-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/alternate-gothic-no2-bt-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/alternate-gothic-no2-bt-webfont.svg#AlternateGothic') format('svg'); /* Legacy iOS */
 }
+
 
 /* Headers 1 - 4 (Alternate Gothic) */
 
 h1 {
-
+  font-family: 'AlternateGothicNo2';
 }
 
 
