@@ -43,3 +43,9 @@ button {
 .contentbutton:hover{
     color:lightblue;
 }
+.rightcolumn {
+    padding-bottom: 10px;
+}
+.headerone {
+    padding-bottom: 10px;
+}
