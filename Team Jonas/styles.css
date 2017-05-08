@@ -44,11 +44,14 @@ button {
 .contentbutton:hover{
     color:lightblue;
 }
+.contentbuttontwo {
+    margin:10px;
+}
 .contentsignup {
-    margin: 5%;
+    margin: 10px;
 }
 .lowerbuttons {
-    padding-bottom: 5%;
+    padding-bottom: 10px;
 }
 .formone {
     margin: 5%;
