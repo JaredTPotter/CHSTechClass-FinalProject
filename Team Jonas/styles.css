@@ -17,7 +17,7 @@ h1, h2, h3, h4 {
     font-family: "AlternateGothic2BTRegular", arial, sans-serif;
 }
 .navbar {
-    background-color: white;
+    background-color: rgb(216,216,216);
     border: 10%;
     border-style: solid;
     border-color: black;
@@ -25,7 +25,7 @@ h1, h2, h3, h4 {
     height: 5%;
 }
 .showcase {
-    background-color: white;
+    background-color: rgb(216,216,216);
     border: 10%;
     border-style: solid;
     border-color: black;
