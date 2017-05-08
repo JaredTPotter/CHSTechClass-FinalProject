@@ -1,5 +1,5 @@
 .navbar {
-    background-color: lightgray;
+    background-color: white;
     border: 10%;
     border-style: solid;
     border-color: black;
@@ -7,13 +7,13 @@
     height: 5%;
 }
 .showcase {
-    background-color: lightgray;
+    background-color: white;
     border: 10%;
     border-style: solid;
     border-color: black;
 }
 .headerone {
-    background-color: lightgray;
+    background-color: white;
     border: 10%;
     border-style: solid;
     border-color: black;
@@ -21,10 +21,11 @@
     margin: 0;
 }
 .signup {
-    background-color: lightgray;
+    background-color: white;
     border: 10%;
     border-style: solid;
     border-color: black;
+    border-width: 2px 2px 2px 2px;
     width: 50%;
 }
 button {
@@ -42,4 +43,13 @@ button {
 }
 .contentbutton:hover{
     color:lightblue;
+}
+.contentsignup {
+    margin: 5%;
+}
+.lowerbuttons {
+    padding-bottom: 5%;
+}
+.formone {
+    margin: 5%;
 }
