@@ -23,7 +23,7 @@ body {
 }
 
 body, p {
-    font-family: "Roboto-Bold-webfont", arial, sans-serif; 
+    font-family: "Roboto-Bold", arial, sans-serif; 
 }
 
 h1, h2, h3, h4 {
@@ -191,6 +191,31 @@ h5 {
 
 .buttonGroupSearchA {
     margin-top: 20px;
+    padding: 0px;
+}
+
+.btn-primary {
+    background-color: white;
+    color: grey;
+    border-color: darkgrey;
+    height: 30px;
+    padding-top: 4px;
+    font-family: "Roboto-Bold", arial, sans-serif;
+}
+
+.btn-primary:hover {
+    background: cornflowerblue;
+    color: white; 
+}
+
+.pagination {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    height: 30px;
+    background-color: white;
+    color: grey;
+    border-color: darkgrey;
+    float: right;
 }
 
 /* CONTENT, SEARCH PAGE */
@@ -328,6 +353,12 @@ h5 {
     .subnavbarButtonB {
         margin-left: 49%;
         margin-right: 5%;
+    }
+    .pagination {
+        margin-right: 40px;
+    }
+    .buttonGroupSearchA {
+        padding-left: 15px;
     }
 }
 
