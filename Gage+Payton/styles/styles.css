@@ -3,3 +3,17 @@ hint: never redefine "col-" classes, just make a new class
 */
 
 /* Custom CSS */
+@font-face{
+    font-family: "AlthernateGothic2BTRegular";
+    src: urt() format("truetype");
+}
+h1, h2, h3, {
+    font-family: "AlternateGothic2BTRegular";
+}
+
+.navbar{
+    background-color: #f1f1f1
+}
+.buttonorange{
+    background-color: #FB8E00
+}
