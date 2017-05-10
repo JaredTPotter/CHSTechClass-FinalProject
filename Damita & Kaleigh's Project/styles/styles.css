@@ -7,18 +7,29 @@ button {
 
 .buttonone {
     background-color: lightskyblue;
+<<<<<<< Updated upstream
     
+    
+=======
+>>>>>>> Stashed changes
 }
+
 
 .showcase {
     background-color: lightgrey;
-    height: 200px;
+    height: 300px;
     text-align: center;
 }
 
 .buttontwo {
+<<<<<<< Updated upstream
     background-color: white;
+    
+=======
+    background-color: white; 
+>>>>>>> Stashed changes
 }
+
 
 placeholder {
     font-style: italic;
@@ -26,6 +37,7 @@ placeholder {
 
 .buttonthree {
     background-color: lightskyblue;
+    
 }
 
 .buttonsfourandfive {
