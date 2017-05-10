@@ -64,6 +64,7 @@ img {
     border-style: solid;
     border-color: black;
     width: 50%;
+    margin-top: 20px;
 }
 button {
     background-color: #FB8E00;
