@@ -36,8 +36,10 @@ h3 {
     border-style: solid;
     border-color: black;
     height: 5%;
-    border-radius: 8px;
     margin: 0px;
+}
+.logo {
+    position: fixed;
 }
 .showcase {
     background-color: #FDCA66;
