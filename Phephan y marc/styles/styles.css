@@ -17,12 +17,18 @@ body{
 }
 
 .block{
-    height:250px;
+    height:;
     background-color:red;
 }
 
 .test{
     background-color: yellow;
+}
+h1{
+color: green;
+}
+h2{
+    color: green:
 }
 /* this is how you add comments in css*/
 
