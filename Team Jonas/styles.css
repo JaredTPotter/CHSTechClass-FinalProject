@@ -19,6 +19,17 @@ body {
 h1, h2, h3, h4 {
     font-family: "AlternateGothic2BTRegular", arial, sans-serif;
 }
+h1 {
+    font-size: 44px;
+    color: #666666;
+}
+h2 {
+    font-size: 36px;
+    color: #666666;
+}
+h3 {
+    font-size: 26px;
+}
 .navbar {
     background-color: rgb(216,216,216);
     border: 1px;
@@ -29,11 +40,12 @@ h1, h2, h3, h4 {
     margin: 0px;
 }
 .showcase {
-    background-color: rgb(216,216,216);
+    background-color: #FDCA66;
     border: 1px;
     border-style: solid;
     border-color: black;
     margin: none;
+    height: 33%;
 }
 .headerone {
     background-color: white;
