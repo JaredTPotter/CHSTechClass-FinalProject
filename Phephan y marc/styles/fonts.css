@@ -6,8 +6,8 @@
 
 /* Headers 1 - 4 (Alternate Gothic) */
 
-h1 {
-
+h1, h2, h3 {font-family: "AlternateGothic2BTRegular";;
+color: green;
 }
 
 
@@ -15,5 +15,5 @@ h1 {
 /* paragraph and forms (Roboto) */
 
 body, p {
-
+font-family: Roboto;
 }

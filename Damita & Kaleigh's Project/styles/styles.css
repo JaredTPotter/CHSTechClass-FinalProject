@@ -29,20 +29,33 @@ button {
 }
 
 .buttonone {
+
     background-color: #FB8E00;
     color: white;
     font-family: sans-serif;
+
+    background-color: lightskyblue;
+
+
     
     
+
 }
 
+
 .showcase {
+
     background-color: #FDCA66;
     height: 200px;
+
+    background-color: lightgrey;
+    height: 300px;
+
     text-align: center;
 }
 
 .buttontwo {
+
     background-color: white;
     border-color: #FB8E00;
     border-style: solid;
@@ -50,7 +63,11 @@ button {
     width: 100px;
     font-family: sans-serif;
     
+
+    background-color: white; 
+
 }
+
 
 placeholder {
     font-style: italic;
