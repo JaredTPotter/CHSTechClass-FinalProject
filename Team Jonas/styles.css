@@ -41,23 +41,23 @@ h3 {
 }
 .showcase {
     background-color: #FDCA66;
-    border: 1px;
+    border: 0;
     border-style: solid;
     border-color: black;
     margin: none;
     height: 33%;
 }
 .headerone {
-    background-color: white;
-    border: 1px;
+    background-color: #f1f1f1;
+    border: 0;
     border-style: solid;
     border-color: black;
     padding-bottom: 10px;
     margin: 0;
 }
 .signup {
-    background-color: white;
-    border: 1px;
+    background-color: #f1f1f1;
+    border: 0;
     border-style: solid;
     border-color: black;
     width: 50%;
