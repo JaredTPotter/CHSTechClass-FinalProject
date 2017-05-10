@@ -1,33 +1,71 @@
 /* Bootstrap overrides 
 hint: never redefine "col-" classes, just make a new class
 */
+@font-face {
+    font-family: "AlternateGothic2BRegular";
+    src: url('fonts/alternate-gothic-no2-bt-webfont.eot');
+    src: url('fonts/alternate-gothic-no2-bt-webfont.svg') format('svg'),
+         url('fonts/alternate-gothic-no2-bt-webfont.ttf') format('truetype'),
+         url('fonts/alternate-gothic-no2-bt-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: "RobotoBold";
+    src: url('fonts/Roboto-Bold-webfont.eot');
+    src: url('fonts/Roboto-Bold-webfont.svg') format('svg'),
+         url('fonts/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Bold-webfont.woff') format('woff');
+}
+
+h1, h2, h3, h4 {
+    font-family: "AlternateGothic2BRegular", arial, sans-serif;
+}
+
+body, p {
+    font-family: "RobotoBold", arial, sans-serif;
+}
 button {
     border-style: none;
 }
 
 .buttonone {
+
+    background-color: #FB8E00;
+    color: white;
+    font-family: sans-serif;
+
     background-color: lightskyblue;
-<<<<<<< Updated upstream
+
+
     
     
-=======
->>>>>>> Stashed changes
+
 }
 
 
 .showcase {
+
+    background-color: #FDCA66;
+    height: 200px;
+
     background-color: lightgrey;
     height: 300px;
+
     text-align: center;
 }
 
 .buttontwo {
-<<<<<<< Updated upstream
+
     background-color: white;
+    border-color: #FB8E00;
+    border-style: solid;
+    border-radius: .25mm;
+    width: 100px;
+    font-family: sans-serif;
     
-=======
+
     background-color: white; 
->>>>>>> Stashed changes
+
 }
 
 
@@ -59,11 +97,9 @@ placeholder {
     background-color: lightsteelblue;
 }
 
-.mainnav {
-    background-color: lightgray;
-    border-bottom-color: darkslategray;
-    border-bottom-style: solid;
-    border-width: 1.5px;
-    
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: white;
 }
 /* Custom CSS */
