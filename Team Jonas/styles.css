@@ -37,6 +37,7 @@ h3 {
     border-color: black;
     height: 5%;
     margin: 0px;
+    border-radius: 0;
 }
 .showcase {
     background-color: #FDCA66;
