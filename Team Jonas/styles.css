@@ -113,3 +113,6 @@ button {
 h2 {
     display: inline;
 }
+.contentbutton {
+    margin: 5px;
+}
