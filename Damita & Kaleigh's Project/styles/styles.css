@@ -50,7 +50,7 @@ button {
 
     background-color: lightgrey;
     height: 300px;
-
+    padding: none;
     text-align: center;
 }
 
