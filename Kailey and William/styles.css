@@ -318,6 +318,22 @@ h6 {
     margin-left: -4px;
 }
 
+.pagination > li > a, .pagination > li > span {
+    color: grey;
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+    background-color: orange;
+    color: white;
+} {
+    color: grey;
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+    background-color: orange;
+    color: white;
+}
+
 /* FOOTER */ 
 .footer {
     height: 80px;
