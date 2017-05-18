@@ -37,7 +37,8 @@ h2 {
 
 p {
     color: #666666;
-    font-size: 26px;
+    font-size: 20px;
+    
 }
 
 button {
@@ -49,9 +50,13 @@ button {
     background-color: #FB8E00;
     color: white;
     font-family: sans-serif;
+    margin-top: 20px;
 
 }
 
+.logo {
+    margin-top: 20px;
+}
 
 .showcase {
 
@@ -62,18 +67,19 @@ button {
     margin: 0px;
 }
 
+.showcasetext {
+    margin: 125px;
+}
+
 .buttontwo {
 
     background-color: white;
     border-color: #FB8E00;
     border-style: solid;
-    border-radius: .25mm;
+    border-width: .1mm;
     width: 100px;
     font-family: sans-serif;
-    
-
-    background-color: white; 
-
+    margin-top: 20px;
 }
 
 
@@ -82,7 +88,8 @@ button {
 }
 
 .buttonthree {
-    background-color: lightskyblue;
+    background-color: #FB8E00;
+    color: white;
     
 }
 
@@ -102,11 +109,13 @@ button {
 }
 
 .buttonsix {
-    background-color: lightskyblue;
+    background-color: #FB8E00;
+    color: white;
 }
 
 .buttonseven {
     background-color: lightsteelblue;
+    color: white;
 }
 
 .navbar {
