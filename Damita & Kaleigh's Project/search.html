@@ -16,37 +16,33 @@
     </head>
     <body>
          <!--NAVBAR-->
-        <div class="navbarCustom container-fluid">
-            <div class="col-xs-1 col-sm-1">
-            </div>
-            <div class="col-xs-3 col-sm-2">
-                <button class="navbarButtonOne navbarButton">
-                    Start Your Search
-                </button>
-            </div>
-            <div class="col-xs-0 col-sm-2">
-            </div>
-            <div class="col-xs-4 col-sm-2 navbarLogoDiv text-center">
-                <img class="navbarLogo" src="../_assets/Logo.png"/>
-            </div>
-            <div class="col-xs-0 col-sm-2">
-            </div>
-            <div class="col-xs-3 col-sm-2 text-right">
-                <button class="navbarButtonTwo navbarButton">Log In</button>
-            </div>
-            <div class="col-xs-1">
-            </div>
+           <div class="container-fluid navbar">
+        <div class="col-sm-3 col-xs-4">
+            <button type="button" class="buttonone">Start Your Search</button>
+
+
         </div>
+
+        <div class="col-sm-push-1 col-sm-4 col-xs-4 text-center">
+            <img src="../_Assets/Logo.png" class="logo" />
+        </div>
+        <div class="col-sm-push-2 col-sm-3 col-xs-4 text-right">
+
+            <div class="col-md-4 navbar">
+
+                <button type="button" class="buttontwo">Log In</button>
+            </div>
+
+        </div>
+    </div>
         <!--copy bootstrap code for dropdown menu -->
 <div class="col-xs-1 col-sm-12">
         </div>
-
-
         <div class="container">
             <div class="col-sm-4">
-                <div class="btn-group" role="group" aria-label="...">
-  <button type="button" class="buttonthree">Firm</button>
-  <button type="button" class="buttonthree">Person</button>
+                <div class="btn-group btn-group-lg" role="group" aria-label="...">
+  <button type="button" class="btn active">Firm</button>
+  <button type="button" class="btn active">Person</button>
 </div>
 <h1>Search</h1>
 <p></p>
@@ -57,7 +53,7 @@
   <input type="text" class="placeholder" placeholder="Street or City Name" required/>
   <h6> Distance </h6>
  <div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" width=50px>
       20 mi
     <span class="caret"></span>
   </button>
