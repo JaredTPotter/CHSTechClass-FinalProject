@@ -89,6 +89,13 @@ button {
     width: 350px;
 }
 
+.placeholder:focus {
+    border-color: #FB8E00;
+    outline: none;
+    border-style: solid;
+    border-width: .1mm;
+}
+
 .buttonthree {
     background-color: #FB8E00;
     color: white;
