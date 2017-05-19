@@ -19,11 +19,12 @@
 body {
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: #f1f1f1;
+    color: grey;
 }
 
 body, p {
-    font-family: "Roboto-Bold-webfont", arial, sans-serif; 
+    font-family: "Roboto-Bold", arial, sans-serif; 
 }
 
 h1, h2, h3, h4 {
@@ -62,13 +63,21 @@ h5 {
     margin-top: 25px;
 }
 
+h6 {
+    color: grey;
+    padding-left: 16px;
+}
+
 /*NAVBAR*/
 .navbarCustom {
     width: 100%;
     height: 50px;
-    background-color: lightgrey;
+    background-color: white;
     border-radius: 0px;
     margin-bottom: 0px;
+    -moz-box-shadow: 0 0 1px 1px #d3d3d3;
+    -webkit-box-shadow: 0 0 1px 1px #d3d3d3;
+    box-shadow: 0 0 1px 1px #d3d3d3;
 }
 
 .navbarLogo {
@@ -89,13 +98,32 @@ h5 {
 }
 
 .navbarButtonOne {
-    background-color: cornflowerblue; 
+    background-color: #FB8E00; 
     color: white;
+}
+
+.navbarButtonOne:hover, .contentButtonOne:hover, .contentButtonTwo:hover, .contentButtonThree:hover, .footerButton:hover {
+    background-color: white;
+    color: #FB8E00;
+    border-color: #FB8E00;
+    border-style: solid;
+    border-width: 1px;
 }
 
 .navbarButtonTwo {
     background-color: white;
+    border-color: #FB8E00;
+    border-width: 1px;
+    border-style: solid; 
     color: grey;
+}
+
+.navbarButtonTwo:hover {
+    background-color: #FB8E00;
+    color: white;
+    border-color: #FB8E00;
+    border-style: solid;
+    border-width: 1px;
 }
 
 .navbarLogo {
@@ -106,7 +134,7 @@ h5 {
 .showcase {
     width: 100%;
     height: 30%;
-    background-color: lightgrey;
+    background-color: #FDCA66;
     margin-top: 0px;
 }
 
@@ -114,17 +142,17 @@ h5 {
 .content {
     width: 100%;
     height: 70%;
-    background-color: black;
+    background-color: #f1f1f1;
     margin-top: 0px;
 }
 
 .contentDiv {
-    background-color: black;
+    background-color: #f1f1f1;
     height: 75%;
 }
 
 .contentButton {
-    background-color: cornflowerblue; 
+    background-color: #FB8E00; 
     color: white;
     height: 30px;
     border-width: 0px;
@@ -139,6 +167,10 @@ h5 {
     margin-top: 15px;
 }
 
+.contentButtonOne:hover, .contentButtonTwo:hover, .contentButtonThree:hover, .footerButton:hover {
+    background-color: #f1f1f1;
+}
+
 .contentButtonTwo, .contentButtonThree {
     margin-top: 10px;
 }
@@ -146,9 +178,19 @@ h5 {
 .inputPageOne {
     width: 100%; 
     border-radius: 2px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
     margin-top: 7px;
     font-style: italic;
-    border-style: none;
+}
+
+.inputPageOne:focus {
+    outline: none;
+    border-color: #FDCA66;
+    border-style: solid;
+    border-width: 2px;
+    opacity: .8;
 }
 
 .formPageOne {
@@ -184,13 +226,44 @@ h5 {
 
 .blackSubnavbar {
     width: 100%;
-    background-color: black;
+    background-color: #f1f1f1;
     padding-left: 0px;
     padding-bottom: 10px;
 }
 
 .buttonGroupSearchA {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: white;
+    color: grey;
+    border-color: #d3d3d3;
+    height: 30px;
+    width: 50%;
+    padding-top: 4px;
+    font-family: "Roboto-Bold", arial, sans-serif;
+    border-radius: 2px;
+}
+
+.btn-primary:hover {
+    background-color: #FDCA66;
+    color: white; 
+    border-color: #FDCA66;
+}
+
+.pagination {
+    margin-bottom: 0px;
     margin-top: 20px;
+    height: 30px;
+    background-color: white;
+    color: grey;
+    border-color: darkgrey;
+    float: right;
 }
 
 /* CONTENT, SEARCH PAGE */
@@ -200,19 +273,56 @@ h5 {
 }
 
 .searchFormsDiv {
-    background-color: black;
+    background-color: #f1f1f1;
 }
 
 .searchResultsDiv {
-    background-color: grey;
+    background-color: #f1f1f1;
     padding: 0px;
+}
+
+.inputPageTwo {
+    width: 100%; 
+    height: 30px;
+    border-radius: 2px;
+    border-color: #d3d3d3;
+    border-style: solid;
+    border-width: 1px;
+    font-style: italic;
+}
+
+.inputPageTwo:focus {
+    outline: none;
+    border-color: #FDCA66;
+    border-style: solid;
+    border-width: 2px;
+    opacity: .8;
+}
+
+.firmNameDiv {
+    margin-top: 0px;
+}
+
+.firmCRDDiv {
+    width: 50%;
+}
+
+.officeLocationDiv {
+    width: 75%;
+    margin-right: 5%;
+}
+
+.officeLocationDivB {
+    width: 20%;
+    padding-left: 0px;
+    margin-left: -4px;
 }
 
 /* FOOTER */ 
 .footer {
     height: 80px;
     margin-top: 40px;
-    background-color: lightgrey;
+    background-color: white;
 }
 
 .footerText {
@@ -301,33 +411,46 @@ h5 {
         border-radius: 5px;
         margin-left: 0px;
     }
+    .searchDivs, .footer {
+        -moz-box-shadow: 0 0 1px 1px #d3d3d3;
+        -webkit-box-shadow: 0 0 1px 1px #d3d3d3;
+        box-shadow: 0 0 1px 1px #d3d3d3;
+    }
     .searchResultsDiv, .searchFormsDiv {
         margin-top: 40px;
     }
     .searchFormsDiv {
-        background-color: grey;
-        color: white;
+        background-color: white;
         width: 83.333%;
         margin-left: 16.666%;
         margin-right: 16.666%;
+    }
+    .searchResultsDiv{
+        background-color: white;
     }
     .searchContent {
         padding: 0px;
     }
     .blackSubnavbar {
-        background-color: grey;
+        background-color: white;
         border-radius: 5px;
     }
     h5 {
-        color: white;
+        color: grey;
         margin-left: 5%;
     }
     h4 {
-        color: white;
+        color: grey;
     }
     .subnavbarButtonB {
         margin-left: 49%;
         margin-right: 5%;
+    }
+    .pagination {
+        margin-right: 40px;
+    }
+    .buttonGroupSearchA {
+        padding-left: 15px;
     }
 }
 
