@@ -5,20 +5,20 @@ hint: never redefine "col-" classes, just make a new class
 
 /* Custom CSS */
 body{
-    background: blue;
+    background: light-gray;
 }
 .container-fluid{
     width:100%;
-    Color:yellow;
+   background-Color:#FDCA66;
 }
 .prep{
-    color:red;
+    background-color:;
     height:100px;
 }
 
 .block{
     height:;
-    background-color:red;
+    background-color:;
 }
 
 .test{
@@ -27,11 +27,16 @@ body{
 .banner{
     width:100%;
     height:500px;
-    background: orange;
+    background-color: #FDCA66;
 }
-
 .Logo{
     
+}
+.button{
+    background-color:#FB8E00;
+}
+h1, h2, h3, p,{
+font:#666666;
 }
 /* this is how you add comments in css*/
 
