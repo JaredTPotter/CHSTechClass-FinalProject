@@ -41,7 +41,14 @@ img {
     margin: none;
     height: 33%;
 }
-
+.headerone {
+    background-color: #f1f1f1;
+    border: 0;
+    border-style: solid;
+    border-color: black;
+    padding-bottom: 10px;
+    margin: 0;
+}
 
 
 
