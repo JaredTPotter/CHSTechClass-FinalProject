@@ -267,6 +267,20 @@ h6 {
 }
 
 /* CONTENT, SEARCH PAGE */
+.container {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.containerNavbar {
+    padding: 0px;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
 .searchDivs {
     height: 75%;
     margin-left: -30px;
@@ -316,16 +330,23 @@ h6 {
     width: 20%;
     padding-left: 0px;
     margin-left: -4px;
+    height: 30px;
+}
+
+.select {
+    height: 100%;
+    width: 100%;
 }
 
 .pagination > li > a, .pagination > li > span {
     color: grey;
 }
 
-.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
-    background-color: orange;
-    color: white;
-} {
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+    color: grey;
+}
+
+.pagination > li > a, .pagination > li > span {
     color: grey;
 }
 
