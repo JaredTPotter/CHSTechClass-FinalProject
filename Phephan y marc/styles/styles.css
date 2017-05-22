@@ -71,7 +71,24 @@ button {
     box-shadow:black 0px 0px 2px 0px;
     margin-right: 25px;
 }
-
+.contentbutton:hover {
+    color:lightgray;
+}
+.contentbuttonfb:hover {
+    color: lightgray;
+}
+.contentbuttontwo {
+}
+.contentbuttonthree {
+    margin-right: 5%;
+    margin-left: 25px;
+}
+.contentsignup {
+    margin: 5%;
+}
+.lowerbuttons {
+    padding-bottom: 10px;
+}
 
 
 
