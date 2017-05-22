@@ -4,26 +4,49 @@ hint: never redefine "col-" classes, just make a new class
 
 
 /* Custom CSS */
-body{
-    background: light-gray;
+body {
+    background-color: f1f1f1;
 }
-.container-fluid{
-    width:100%;
-   background-Color:#FDCA66;
+h1, h2, h3, h4 {
+    font-family: "AlternateGothic2BTRegular", arial, sans-serif;
 }
-.prep{
-    background-color:;
-    height:100px;
+h1 {
+    font-size: 44px;
+    color: #666666;
+}
+h2 {
+    font-size: 36px;
+    color: #666666;
+}
+h3 {
+    font-size: 26px;
+}
+.navbar {
+    background-color: #f1f1f1;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    height: 5%;
+    margin: 0px;
+    border-radius: 0;
+}
+img {
+    margin-top: 10px;
+}
+.showcase {
+    background-color: #FDCA66;
+    border: 0;
+    border-style: solid;
+    border-color: black;
+    margin: none;
+    height: 33%;
 }
 
-.firstPageNavbar {
-    background-color: white;
-}
 
-.block{
-    height:;
-    background-color:;
-}
+
+
+
+
 
 .test{
     background-color: yellow;
