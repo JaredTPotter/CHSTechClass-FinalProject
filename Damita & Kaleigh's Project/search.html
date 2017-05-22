@@ -1,40 +1,112 @@
 <!-- Search Page -->
 <html>
     <head>
-        <title></title>
+        <title>Example</title>
+        <link rel="SHORTCUT ICON" href="../_assets/logoIcon.png">
+
          <!-- bootstrap -->
-    <link rel="stylesheet" href="bootstrap/Bootstrap.css" />
+        <link rel="stylesheet" href="bootstrap/Bootstrap.css" />
 
-    <!-- jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="bootstrap/Bootstrap.js"></script>
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="bootstrap/Bootstrap.js"></script>
 
-    <!-- external css -->
-    <link rel="stylesheet" href="styles/styles.css" />
-
-     
+        <!-- external css -->
+        <link rel="stylesheet" href="styles/styles.css" />
     </head>
     <body>
-        <div class="row">
-  <div class="col-md-4">.
-        <button type="button" class="buttonone">Start Your Search</button>
+         <!--NAVBAR-->
+           <div class="container-fluid navbar">
+        <div class="col-sm-3 col-xs-4">
+            <button type="button" class="buttonone">Start Your Search</button>
 
 
         </div>
-    <div class="col-md-4">Logo</div>
-    <div class="col-md-4">
-        <button type="button">Log In</button>
-        </div>
 
+        <div class="col-sm-push-1 col-sm-4 col-xs-4 text-center">
+            <img src="../_Assets/Logo.png" class="logo" />
+        </div>
+        <div class="col-sm-push-2 col-sm-3 col-xs-4 text-right">
+
+            <div class="col-md-4 navbar">
+
+                <button type="button" class="buttontwo">Log In</button>
+            </div>
 
         </div>
+    </div>
         <!--copy bootstrap code for dropdown menu -->
+<div class="col-xs-1 col-sm-12">
+        </div>
+        <div class="container">
+            <div class="col-sm-4">
+                <div class="btn-group btn-group-lg" role="group" aria-label="...">
+  <button type="button" class="btn active">Firm</button>
+  <button type="button" class="btn active">Person</button>
+</div>
+<h1>Search</h1>
+<p></p>
+<h6> Firm Name </h6>
+<div class="btn-group buttonGroupSearchA firmNameDiv">
+ <input type="text" class="inputPageTwo"></div>
+ <h6> Office Location </h6>
+  <input type="text" class="placeholder" placeholder="Street or City Name" required/>
+  <h6> Distance </h6>
+ <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" width=50px>
+      20 mi
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">25 mi</a></li>
+    <li><a href="#">30 mi</a></li>
+    <li><a href="#">35 mi</a></li>
+  </ul>
+</div>
+ <h6> Firm CRD # </h6>
 
+ <input type="text" required/>
 
+ <h6> Total Assets Under Management </h6>
 
+ <input type="text" class="placeholder" placeholder="Min"  required/>
+<input type="text" class="placeholder" placeholder="Max" required/>
 
+ <h6> Discretionary Assets Under Management </h6>
 
+<input type="text" class="placeholder" placeholder="Min" required/>
+<input type="text" class="placeholder" placeholder="Max" required/>
 
+ <h6> Total # of Employees </h6>
+
+ <input type="text" class="placeholder" placeholder="Min" required/>
+ <input type="text" class="placeholder" placeholder="Max" required/>
+
+ <h6> Total # of Clients </h6>
+
+ <input type="text" class="placeholder" placeholder="Min" required/>
+ <input type="text" class="placeholder" placeholder="Max" required/>
+            </div>
+        <div class="col-sm-8">
+            </div>
+<button type="button" class="buttonthree">Save & Search</button>
+  <button type="button" class="buttonsfourandfive">Search</button>
+  <button type="button" class="buttonsfourandfive">Clear</button>
+            <!--FOOTER-->
+<div class="footer col-xs-10 col-sm-push-0 col-xs-push-1 col-sm-12">
+    <div class="col-sm-1">
+    </div>
+    <div class="smallFooterDiv col-sm-10">
+        <h3 class="footerText col-sm-2">Export to:</h3>
+        <button class="footerButton contentButton col-sm-2 RedQuarry">RedQuarry</button>
+        <button class="footerButton contentButton col-sm-2">Mailchimp</button>
+        <button class="footerButton contentButton col-sm-2">Salesforce</button>
+        <button class="footerButton contentButton col-sm-2">Excel</button>
+        <button class="footerButton contentButton col-sm-2">Custom</button>
+    </div>
+</div>
+<div class="col-xs-1 col-sm-12">
+</div>
 
 
 

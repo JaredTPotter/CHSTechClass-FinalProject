@@ -80,8 +80,11 @@ button {
     box-shadow:black 0px 0px 2px 0px;
     margin-right: 25px;
 }
-.contentbutton:hover{
-    color:lightblue;
+.contentbutton:hover {
+    color:lightgray;
+}
+.contentbuttonfb:hover {
+    color: lightgray;
 }
 .contentbuttontwo {
 }
