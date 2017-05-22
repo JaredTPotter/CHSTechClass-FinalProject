@@ -78,6 +78,17 @@ button {
     margin: 0px;
 }
 
+.exporttext {
+    margin: 10px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid grey;
+    padding: 10px;
+}
+
 .showcasetext {
     margin: 125px;
 }
@@ -98,6 +109,11 @@ button {
 .placeholder {
     font-style: italic;
     width: 350px;
+}
+
+.placeholder2 {
+    font-style: italic;
+    width: 150px;
 }
 
 .placeholder:focus {
