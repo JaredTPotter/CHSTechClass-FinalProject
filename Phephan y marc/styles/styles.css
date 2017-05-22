@@ -4,43 +4,106 @@ hint: never redefine "col-" classes, just make a new class
 
 
 /* Custom CSS */
-body{
-    background: light-gray;
+body {
+    background-color: f1f1f1;
 }
-.container-fluid{
-    width:100%;
-   background-Color:#FDCA66;
+h1, h2, h3, h4 {
+    font-family: "AlternateGothic2BTRegular", arial, sans-serif;
 }
-.prep{
-    background-color:;
-    height:100px;
+h1 {
+    font-size: 44px;
+    color: #666666;
 }
-
-.firstPageNavbar {
-    background-color: white;
+h2 {
+    font-size: 36px;
+    color: #666666;
 }
-
-.block{
-    height:;
-    background-color:;
+h3 {
+    font-size: 26px;
 }
-
-.test{
-    background-color: yellow;
+.navbar {
+    background-color: #f1f1f1;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    height: 5%;
+    margin: 0px;
+    border-radius: 0;
 }
-.banner{
-    width:100%;
-    height:300px;
+img {
+    margin-top: 10px;
+}
+.showcase {
     background-color: #FDCA66;
+    border: 0;
+    border-style: solid;
+    border-color: black;
+    margin: none;
+    height: 33%;
 }
-.Logo{
-    
+.headerone {
+    background-color: #f1f1f1;
+    border: 0;
+    border-style: solid;
+    border-color: black;
+    padding-bottom: 10px;
+    margin: 0;
 }
-.button{
-    background-color:#FB8E00;
+.signup {
+    background-color: #f1f1f1;
+    border: 0;
+    border-style: solid;
+    border-color: black;
+    width: 50%;
+    margin-top: 20px;
 }
-h1, h2, h3, p,{
-font:#666666;
+button {
+    background-color: #FB8E00;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
 }
-/* this is how you add comments in css*/
-
+.contentbutton{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow:black 0px 0px 2px 0px;
+    margin-right: 25px;
+}
+.contentbutton:hover {
+    color:lightgray;
+}
+.contentbuttonfb:hover {
+    color: lightgray;
+}
+.contentbuttontwo {
+}
+.contentbuttonthree {
+    margin-right: 5%;
+    margin-left: 25px;
+}
+.contentsignup {
+    margin: 5%;
+}
+.lowerbuttons {
+    padding-bottom: 10px;
+}
+.formone {
+    margin: 5%;
+}
+.inputpageone {
+    padding: 5px;
+    width: 100%;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-style: italic;
+}
+.contentbuttonfb{
+    background-color:rgb(103, 178, 229);
+    margin-left: 5%;
+}
+h2 {
+    display: inline;
+}
