@@ -38,11 +38,11 @@ h2 {
 p {
     color: #666666;
     font-size: 20px;
-    
 }
 
 button {
     border-style: none;
+    width: 150px;
 }
 
 .buttonone {
@@ -51,6 +51,7 @@ button {
     color: white;
     font-family: sans-serif;
     margin-top: 20px;
+    height: 30px;
 
 }
 
@@ -77,20 +78,28 @@ button {
     border-color: #FB8E00;
     border-style: solid;
     border-width: .1mm;
-    width: 100px;
     font-family: sans-serif;
     margin-top: 20px;
+    height: 30px;
+    color: gray;
 }
 
 
 .placeholder {
     font-style: italic;
+    width: 350px;
+}
+
+.placeholder:focus {
+    border-color: #FB8E00;
+    outline: none;
+    border-style: solid;
+    border-width: .1mm;
 }
 
 .buttonthree {
     background-color: #FB8E00;
     color: white;
-    
 }
 
 .buttonsfourandfive {
@@ -99,12 +108,17 @@ button {
     border-width: .1mm;
     background-color: white;
     margin: 0px;
+    display: block;
+    float: left;
+    width: 100px;
+    color: gray;
 
 }
 
 .buttonsfourandfive:focus {
     background-color: #FDCA66;
-   outline: none;
+    outline: none;
+    color: black;
   
 }
 
@@ -114,7 +128,11 @@ button {
 }
 
 .buttonseven {
-    background-color: lightsteelblue;
+    background-color: lightskyblue;
+    height: 30px;
+}
+
+a.color {
     color: white;
 }
 
