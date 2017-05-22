@@ -81,6 +81,7 @@ button {
     font-family: sans-serif;
     margin-top: 20px;
     height: 30px;
+    color: gray;
 }
 
 
@@ -110,12 +111,14 @@ button {
     display: block;
     float: left;
     width: 100px;
+    color: gray;
 
 }
 
 .buttonsfourandfive:focus {
     background-color: #FDCA66;
     outline: none;
+    color: black;
   
 }
 
