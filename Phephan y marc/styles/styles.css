@@ -107,28 +107,3 @@ button {
 h2 {
     display: inline;
 }
-
-
-
-
-
-
-.test{
-    background-color: yellow;
-}
-.banner{
-    width:100%;
-    height:300px;
-    background-color: #FDCA66;
-}
-.Logo{
-    
-}
-.button{
-    background-color:#FB8E00;
-}
-h1, h2, h3, p,{
-font:#666666;
-}
-/* this is how you add comments in css*/
-
