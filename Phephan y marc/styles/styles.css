@@ -104,7 +104,9 @@ button {
     background-color:rgb(103, 178, 229);
     margin-left: 5%;
 }
-
+h2 {
+    display: inline;
+}
 
 
 
