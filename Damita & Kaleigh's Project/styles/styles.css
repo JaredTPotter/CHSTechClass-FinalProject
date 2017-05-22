@@ -139,10 +139,11 @@ a.color {
     color: white;
 }
 
-.navbar {
+.bottomnavbar {
     width: 100%;
     height: 75px;
     background-color: white;
     border-bottom: 1px solid grey;
 }
+
 /* Custom CSS */
