@@ -10,6 +10,7 @@
 
         <!-- jquery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
         <script src="bootstrap/js/bootstrap.js"></script>
 
         <!-- external css -->
@@ -55,6 +56,56 @@
             <!-- final navbar spacefiller -->
 
 </div>
+<div class="container-fluid">
+  
+        <h1>AMERIPRISE FINANCIAL SERVICES, INC.</h1>
+        <h2>(CRD# 6363 /SEC#8-16701, 801-28543)</h2>
+        <h3>Investment Advisor Firm<h3>
+</div>
+<script type='text/javascript' src="http://maps.googleapis.com/maps/api/js?sensor=false&extension+.js&output=embed"></script>
+<script>
+    $(document).ready(function() {
+        var myCenter=new google.maps.LatLng(45.992261, -123.925014);
+        var marker=new google.maps.Marker({
+});
+   function intialize() {
+       var mapProp = {
+       center:myCenter,
+       zoom: 14,
+       draggable:true,
+       scrollwheel: true,
+       mapTypeId:google.maps.MapTypeId.ROADMAP
+};
+var map=new google.maps.Map(document.getElementById("map-canvas"),mapProp)
+marker.setMap(map);
+google.maps.event.addListener(marker, 'click', function() {
+    infowindow.setContent(ContentString);
+    infowindow.open(map,marker)
 
+});
+
+   };
+   $('a[data-toggle="tab').on('shown.bs.tab'), function (e) {
+       initialize();
+   });
+
+   });
+   </script>
+   <style>
+       <style type="text/css">
+       #map-canvas {
+           height:500px;
+       }
+   </style>
+       <head>
+       <div class="tab-contnet">
+       <div class="tab-pane fade" id="map">
+       <div class="col-md-5">
+           <h4 class="h4".Find Us at Google map,/h4>
+           </div>
+           <div id="map-canvas" class="col-md-7">
+           </div>
+       </div>
+       </div>
     </body>
 </html>

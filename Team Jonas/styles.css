@@ -32,9 +32,9 @@ h3 {
 }
 .navbar {
     background-color: #f1f1f1;
-    border: 1px;
+    border: 1.2px;
     border-style: solid;
-    border-color: black;
+    border-color: lightgray;
     height: 5%;
     margin: 0px;
     border-radius: 0;
@@ -87,19 +87,20 @@ button {
     color: lightgray;
 }
 .contentbuttontwo {
+    width: 75%;
 }
 .contentbuttonthree {
     margin-right: 5%;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 .contentsignup {
-    margin: 5%;
+    margin: 20px;
 }
 .lowerbuttons {
     padding-bottom: 10px;
 }
 .formone {
-    margin: 5%;
+    margin: 20px;
 }
 .inputpageone {
     padding: 5px;
